@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #202020;
+    text-indent: 20px;
+    /* Отступ первой строки */
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    color: #8b8b8b;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.row {
+    background-color: #333333;
+    border-radius: 20px;
+    margin-top: 20px;
+}
