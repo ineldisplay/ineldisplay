@@ -18,7 +18,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
+    <!-- 3dviewer -->
+    <script type="text/javascript" src="o3dv_0.7.21/o3dv.min-0.7.21.js"></script>
+    <script type="text/javascript" src="o3dv_0.7.21/three.min-129.js"></script>
+    <script type='text/javascript'>
+    OV.Init3DViewerElements ();
+</script>
+
     <title>3D-model-preview</title>
+
 </head>
 
 <body>
@@ -31,6 +39,17 @@
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque saepe eum labore provident at possimus pariatur dolor et id delectus minus sed reiciendis dolorem maiores nisi quos esse doloribus natus, unde, voluptatibus ea. Iure dignissimos blanditiis cum, voluptates quis dicta adipisci quibusdam ex itaque vero id modi, odio amet, cupiditate reiciendis consectetur incidunt eius. Dignissimos, adipisci, beatae ea eaque soluta perspiciatis natus eius nobis, fuga est rem, ipsam. Saepe dignissimos sint modi assumenda harum ducimus similique iusto nemo natus, possimus voluptate debitis sunt ex ullam! Magnam ipsam assumenda necessitatibus provident quasi facilis non? Dolorem, neque! Quas expedita provident, ab itaque neque ex ut ipsa. Reiciendis commodi et in voluptates obcaecati sunt, ab quae, ullam, totam laudantium unde similique, autem id!</p>
 
+                              <!-- 3dviewer -->
+    <div class="online_3d_viewer"
+        style="width: 800px; height: 600px;"
+        model="testfiles/obj/hundred_cubes.obj,testfiles/obj/hundred_cubes.mtl"
+        camera="3,1,2,0,0,0,0,0,1"
+        defaultcolor="200,0,0"
+        backgroundcolor="200,200,200">
+    </div>
+
+
+
             </div>
         </div>
     </div>
@@ -47,7 +66,7 @@
         </div>
     </div>
 
-     <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col">
 
@@ -59,7 +78,7 @@
         </div>
     </div>
 
-     <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col">
 
@@ -70,6 +89,8 @@
             </div>
         </div>
     </div>
+
+
 
 
 
@@ -84,6 +105,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
+
 </body>
 
 </html>
