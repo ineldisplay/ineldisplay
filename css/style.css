@@ -1,10 +1,9 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #202020;
+    background-color: #333333;
     text-indent: 20px;
     /* Отступ первой строки */
 }
-
 p,
 h1,
 h2,
@@ -17,9 +16,13 @@ h4 {
     margin-bottom: 20px;
     text-align: justify;
 }
-
 .row {
-    background-color: #333333;
+    background-color: rgb(32, 32, 32);
     border-radius: 20px;
     margin-top: 20px;
+}
+.online_3d_viewer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
