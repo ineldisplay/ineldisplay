@@ -1,0 +1,20 @@
+1) test-model-3d-viewer.html
+
+БЕЗ ТЕКСТУР
+
+Drag and drop your 3D models here.
+obj, 3ds, stl, ply, gltf, glb, 3dm, fbx, off
+Ссылки:
+https://www.3dviewer.net/
+https://www.3dviewer.net/info/index.html
+https://github.com/kovacsv/Online3DViewer
+
+
+2) test-model-3d-viewer.html
+
+С ТЕКСТУРАМИ
+
+We support FBX, OBJ, DAE, BLEND, STL, and many others.
+You can also upload an archive like ZIP, RAR, or 7z, containing your textures, materials, and mesh. 
+Ссылки:
+https://sketchfab.com/feed
